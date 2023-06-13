@@ -1,0 +1,2 @@
+
+RewriteEngine On RewriteCond %{HTTPS} off RewriteRule ^(.*)$ https://spaceavenue.net/$ [L,R=301]
