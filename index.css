@@ -56,10 +56,10 @@ a:hover {
   animation: none;
 }
 
-@keyframes pulsate {
+/* @keyframes pulsate {
   
   100% {
-    /* Larger blur radius */
+ 
     text-shadow:
       0 0 4px #000,
       0 0 11px #000,
@@ -74,7 +74,7 @@ a:hover {
   }
 
  0% {
-    /* A slightly smaller blur radius */
+    
     text-shadow:
       0 0 4px #000,
       0 0 10px #000,
@@ -87,4 +87,4 @@ a:hover {
     color:#00f;
     border-color: #00f;
   }
-}
+} */
