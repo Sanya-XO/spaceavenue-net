@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url('./purple-stars-bg.gif');
+	background-image: url('./assets/purple-stars-bg.gif');
 }
       
 div.title_main {
@@ -25,7 +25,11 @@ div.title_main {
   overflow: hidden;
 	border: 2px solid;
 	border-radius: 16px;
-	/*animation: pulsate 2s ease-in-out infinite alternate;*/
+}
+
+div.i_love_women {
+  text-align: center;
+  margin: 12% auto 0px;
 }
 
 .links_social {
@@ -56,35 +60,3 @@ a:hover {
   animation: none;
 }
 
-/* @keyframes pulsate {
-  
-  100% {
- 
-    text-shadow:
-      0 0 4px #000,
-      0 0 11px #000,
-      0 0 19px #000,
-      0 0 40px #00f,
-      0 0 80px #00f,
-      0 0 90px #00f,
-      0 0 100px #00f,
-      0 0 150px #00f;
-    color:#00f;
-    border-color: #00f;
-  }
-
- 0% {
-    
-    text-shadow:
-      0 0 4px #000,
-      0 0 10px #000,
-      0 0 18px #000,
-      0 0 38px #00f,
-      0 0 73px #00f,
-      0 0 80px #00f,
-      0 0 94px #00f,
-      0 0 140px #00f;
-    color:#00f;
-    border-color: #00f;
-  }
-} */
