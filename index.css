@@ -7,7 +7,7 @@ body {
       
 div.title_main {
   text-align: center;
-	text-shadow:
+	/*text-shadow:
     0 0 4px #000,
     0 0 11px #000,
     0 0 19px #000,
@@ -15,9 +15,10 @@ div.title_main {
     0 0 80px #00f,
     0 0 90px #00f,
     0 0 100px #00f,
-    0 0 150px #00f;
+    0 0 150px #00f;*/
   color:#00f;
   border-color: #00f;
+  font-family: header;
 	font-size: 56px;
   max-width: 700px;
 	height: 50%;
@@ -28,8 +29,16 @@ div.title_main {
 }
 
 div.i_love_women {
-  text-align: center;
   margin: 12% auto 0px;
+  max-width: max-content;
+  overflow: visible;
+  height: 50%;
+}
+
+div.i_love_women > img{
+  display: inline-block;
+  margin: auto;
+  overflow: hidden;
 }
 
 .links_social {
@@ -58,5 +67,10 @@ a:hover {
   color: white;
   text-shadow: 0 0 4px black;
   animation: none;
+}
+
+@font-face {
+  font-family: header;
+  src: url(assets/iosevka-ss06-extended.ttf);
 }
 
