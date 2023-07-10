@@ -7,15 +7,6 @@ body {
       
 div.title_main {
   text-align: center;
-	/*text-shadow:
-    0 0 4px #000,
-    0 0 11px #000,
-    0 0 19px #000,
-    0 0 40px #00f,
-    0 0 80px #00f,
-    0 0 90px #00f,
-    0 0 100px #00f,
-    0 0 150px #00f;*/
   color:#00f;
   border-color: #00f;
   font-family: header;
@@ -44,6 +35,7 @@ div.i_love_women > img{
 .links_social {
   text-align: center;
   font-size: 28px;
+  font-family: links;
   margin: 12% auto 0px;
   max-width 700px;
   overflow: visible;
@@ -71,6 +63,10 @@ a:hover {
 
 @font-face {
   font-family: header;
-  src: url(assets/iosevka-ss06-extended.ttf);
+  src: url(assets/iosevka-ss06-extendedbold.ttf);
 }
 
+@font-face {
+  font-family: links;
+  src: url(assets/iosevka-ss06-extended.ttf);
+}
