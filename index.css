@@ -7,51 +7,69 @@ body {
       
 div.title_main {
   text-align: center;
-  color:#00f;
-  border-color: #00f;
   font-family: header;
-	font-size: 56px;
-  max-width: 700px;
+  font-size: 56px;
+  color:#00f;
+  border: 2px solid #00f;
+  border-radius: 16px;
+  margin: 10px auto;
+  max-width: 60vw;
 	height: 50%;
-	margin: 10px auto;
   overflow: hidden;
-	border: 2px solid;
-	border-radius: 16px;
 }
 
-div.i_love_women {
-  margin: 12% auto 0px;
-  max-width: max-content;
+div._flexbox_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap:5vw;
+  margin: 12vh 0px 0px;
   overflow: visible;
-  height: 50%;
+  min-width: 0px;
 }
 
-div.i_love_women > img{
-  display: inline-block;
-  margin: auto;
+div.intro_box {
+  text-align: center;
+  color: #00f;
+  border: 2px solid;
+  border-color: #00f;
+  border-radius: 16px;
+  font-family: links;
+  font-size: 28px;
+  margin: 0px auto 0px auto;
+  width: 40vw;
+  max-width: 700px;
+  min-width: 340px;
   overflow: hidden;
 }
+
 
 .links_social {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  gap: 8px;
   text-align: center;
   font-size: 28px;
   font-family: links;
-  margin: 12% auto 0px;
-  max-width 700px;
+  color: #00f;
+  border: 2px solid #00f;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 0px auto 0px auto;
+  width: 40vw;
+  max-width: 700px;
+  min-width: 340px;
   overflow: visible;
-  height: 50%;
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
-  margin: auto;
-  padding: 8px;
-  overflow: hidden;
-  border: 2px solid;
+  border: 2px solid #00f;
   border-radius: 16px;
-  color: #00f;
-  border-color: #00f;
+  padding: 8px;
+  margin: auto;
+  overflow: visible;
 }
 
 a:hover {
