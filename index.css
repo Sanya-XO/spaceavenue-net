@@ -1,3 +1,7 @@
+:root {
+  --text-gradient: linear-gradient(90deg, #d00070, #8c4799, #0032a0);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -7,7 +11,7 @@ body {
       
 div.title_main {
   text-align: center;
-  font-family: header;
+  font-family: main_title;
   font-size: 56px;
   color:#00f;
   border: 2px solid #00f;
@@ -15,8 +19,10 @@ div.title_main {
   margin: 10px auto;
   max-width: 60vw;
   min-width: 350px;
-	height: 50%;
-  overflow: hidden;
+	overflow: hidden;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 div._flexbox_container {
@@ -32,16 +38,18 @@ div._flexbox_container {
 div.intro_box {
   text-align: center;
   color: #00f;
-  border: 2px solid;
-  border-color: #00f;
+  border: 2px solid #00f;
   border-radius: 16px;
-  font-family: links;
+  font-family: general_text;
   font-size: 28px;
   margin: 0px 0px 0px auto;
   width: 40vw;
   max-width: 700px;
   min-width: 340px;
   overflow: hidden;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -52,7 +60,7 @@ div.intro_box {
   gap: 8px;
   text-align: center;
   font-size: 28px;
-  font-family: links;
+  font-family: general_text;
   color: #00f;
   border: 2px solid #00f;
   border-radius: 16px;
@@ -71,6 +79,9 @@ a {
   padding: 8px;
   margin: auto;
   overflow: visible;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a:hover {
@@ -81,12 +92,12 @@ a:hover {
 }
 
 @font-face {
-  font-family: header;
+  font-family: main_title;
   src: url(assets/iosevka-ss06-extendedbold.ttf);
 }
 
 @font-face {
-  font-family: links;
+  font-family: general_text;
   src: url(assets/iosevka-ss06-extended.ttf);
 }
 
