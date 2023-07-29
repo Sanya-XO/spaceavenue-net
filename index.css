@@ -7,10 +7,10 @@
 }
 body {
 	background-image: url('./assets/purple-stars-bg.gif');
-  min-height: 100vh;
+  min-height: 95vh;
   margin: 0px;
 }
-      
+
 div.title_main {
   text-align: center;
   font-family: main_title;
@@ -96,9 +96,9 @@ a:hover {
 
 .badges_container {
   position: sticky;
-  top: 90%;
+  top: 100%;
   text-align: center;
-  margin: 12px auto 0px auto;
+  margin: 8px auto 0px auto;
 }
 
 @font-face {
