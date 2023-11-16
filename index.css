@@ -51,6 +51,7 @@ div.intro_box {
   min-width: 340px;
   overflow: hidden;
   background: var(--text-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -84,6 +85,7 @@ div.links_social a {
   margin: auto;
   overflow: visible;
   background: var(--text-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
