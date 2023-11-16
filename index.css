@@ -23,6 +23,7 @@ div.title_main {
   min-width: 350px;
 	overflow: hidden;
   background: var(--text-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -97,11 +98,17 @@ div.links_social a:hover {
   animation: none;
 }
 
+div._qc_webring_flexbox {
+  top:80%;
+  text-align: center;
+  margin: 8px auto 8px auto;
+}
+
 .badges_container {
   position: sticky;
   top: 100%;
   text-align: center;
-  margin: 8px auto 0px auto;
+  margin: 0px auto 0px auto;
 }
 
 @font-face {
