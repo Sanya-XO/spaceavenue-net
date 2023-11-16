@@ -77,7 +77,7 @@ div.intro_box {
 
 div.links_social a {
   text-decoration: none;
-  width: 80%;
+  /* width: 80%; */
   border: 2px solid #00f;
   border-radius: 16px;
   padding: 8px;
