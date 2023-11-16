@@ -75,8 +75,9 @@ div.intro_box {
   overflow: visible;
 }
 
-a {
+div.links_social a {
   text-decoration: none;
+  width: 80%;
   border: 2px solid #00f;
   border-radius: 16px;
   padding: 8px;
@@ -87,7 +88,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-a:hover {
+div.links_social a:hover {
   background-color: blue;
   color: white;
   text-shadow: 0 0 4px black;
