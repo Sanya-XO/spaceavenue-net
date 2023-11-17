@@ -98,14 +98,24 @@ div.links_social a:hover {
   animation: none;
 }
 
-div._qc_webring_flexbox {
+div.footer_container {
+  position: sticky;
+  top: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+div.qc_webring_container {
+  /*position: sticky;*/
   top:80%;
+  bottom: 20%;
   text-align: center;
   margin: 8px auto 8px auto;
 }
 
-.badges_container {
-  position: sticky;
+div.badges_container {
+  /*position: sticky;*/
   top: 100%;
   text-align: center;
   margin: 0px auto 0px auto;
