@@ -102,8 +102,9 @@ div.footer_container {
   position: sticky;
   top: 100%;
   display:flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items:center;
 }
 
 div.qc_webring_container {
