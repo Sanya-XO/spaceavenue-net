@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 }
 body {
+  background-color: black;
 	background-image: url('./assets/purple-stars-bg.gif');
   min-height: 95vh;
   margin: 0px;
@@ -15,7 +16,7 @@ div.title_main {
   text-align: center;
   font-family: main_title;
   font-size: 56px;
-  color:#00f;
+  color: #00f;
   border: 2px solid #00f;
   border-radius: 16px;
   margin: 10px auto;
@@ -31,9 +32,9 @@ div.title_main {
 div._flexbox_container {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  gap:5vw;
-  margin: 12vh 0px 0px;
+  justify-content: center;
+  gap: 5vw;
+  margin: 12vh 0px 0px 0px;
   overflow: visible;
   min-width: 0px;
 }
@@ -58,7 +59,7 @@ div.intro_box {
 }
 
 
-.links_social {
+div.links_social {
   display: flex;
   flex-wrap: wrap;
   align-content: space-evenly;
@@ -104,12 +105,12 @@ div.footer_container {
   display:flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items:center;
+  align-items: center;
 }
 
 div.qc_webring_container {
   /*position: sticky;*/
-  top:80%;
+  top: 80%;
   bottom: 20%;
   text-align: center;
   margin: 8px auto 8px auto;
@@ -124,19 +125,23 @@ div.badges_container {
 
 @font-face {
   font-family: main_title;
-  src: url(assets/iosevka-ss06-extendedbold.ttf);
+  src: url(assets/fonts/iosevka-ss06-extendedbold.ttf);
 }
 
 @font-face {
   font-family: general_text;
-  src: url(assets/iosevka-ss06-extended.ttf);
+  src: url(assets/fonts/iosevka-ss06-extended.ttf);
 }
 
 @media all and (max-width: 800px){
+  div._flexbox_container {
+    flex-direction: column;
+    justify-content: center;
+  }
   div.intro_box{
     margin: 0px auto 0px auto; 
   }
-  .links_social{
+  div.links_social{
     margin: 0px auto 0px auto;
-  }
+ }
 }
